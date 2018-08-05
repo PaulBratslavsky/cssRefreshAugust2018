@@ -1,0 +1,230 @@
+* {
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+ }
+
+.container {
+    width: 980px;
+    margin: 0 auto;
+}
+
+/* Main Header Start */
+
+.main-header {
+    width: 100%;
+    background: #2ddf5c;
+    padding: 8px 16px;
+}
+
+.main-logo {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+.main-logo a {
+    text-decoration: none;
+    color: #0e4f1f;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+/* Main Header End */
+
+/* Main Navigation Start */
+
+.main-nav {
+    display: inline-block;
+    text-align: right;
+    vertical-align: middle;
+    width: calc(100% - 74px);
+}
+
+.main-nav__items {
+    /*padding: 0;
+        margin: 0; */
+    list-style: none;
+}
+
+.main-nav__item {
+    display: inline-block;
+    margin: 0 16px;
+}
+
+.main-nav__item a {
+    text-decoration: none;
+    color: #0e4f1f;
+    font-weight: bold;
+    padding: 3px;
+}
+
+.main-nav__item a:hover {
+    color: #3a834d;
+    border-bottom: #3a834d solid 3px;
+
+}
+
+.main-nav__item a:active {
+    color: white;
+    border-bottom: white solid 3px;
+
+}
+
+.call-to-action a{
+    color: white;
+    background: #ff1b68;
+    padding: 8px 16px;
+    border: white 3px solid;
+    border-radius: 8px
+}
+
+.call-to-action a:hover {
+    color: #ff1b68;;
+    background: white;
+    padding: 8px 16px;
+    border: #ff1b68 3px solid;
+    border-radius: 8px
+}
+
+
+
+/* Main Navigation End */
+
+/* Product Overview Start */
+
+#product-overview {
+    background: #ff1b68;
+    background: url("../img/product-page.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 528px;
+    padding: 18px 16px;
+ }
+
+#product-overview h1 {
+    color: white;
+    font-family: 'Anton', sans-serif;
+    margin: 0;
+
+}
+
+/* Product Overview End */
+
+
+/* Plands Section Start */
+#plans {
+    
+}
+
+h1.section-title {
+    color: #2ddf5c;
+    text-align: center;
+    font-weight: bold;
+}
+
+p.section-tag-line {
+    text-align: center;
+    font-weight: bold;
+}
+
+.plan {
+    display: inline-block;
+    width: 31%;
+    background: #d5ffdc;
+    color: #0e4f1f;
+    text-align: center;
+    /* vertical-align: middle; */
+    padding: 16px;
+    margin: 8px;
+}
+
+/*
+article.plan:hover,
+article.plan:active {
+    background: white;
+    color: #19b84c;
+    box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.5);
+}
+*/
+
+article.plan-highlighted {
+    background:#19b84c;
+    color: white;
+}
+
+h1.plan__recommended {
+    color: #19b84c;
+    background: white;
+    box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.5);
+    border-radius: 5px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin: 0;
+}
+/*
+h1.plan__title-recommended {
+    color: red;
+}
+*/
+h1.plan__title {
+    color: #19b84c;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin: 0;
+}
+
+
+h2.plan__price {
+    font-size: 35px;
+    margin: 0;
+}
+
+h1.plan__title-recommended {
+    color: white;
+    font-size: 35px;
+    padding: 0;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+h2.plan__price-recommended {
+    color: white;
+    font-size: 55px;
+    padding: 0;
+    margin: 0;
+}
+
+ul.plan__features > li {
+    font-size: 20px;
+    font-weight: 700;
+    padding: 0;
+    margin: 8px 0;
+}
+
+.plan .plan__button {
+    padding: 18px 0px;
+    width: 100%;
+    color: white;
+    background: #0e4f1f;
+    font-weight: bold;
+    font-size: 22px;
+    border-style: none;
+    border-radius: 8px;
+}
+
+
+
+
+/* Plands Section Start */
+
+
