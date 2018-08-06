@@ -16,6 +16,11 @@ body {
     margin: 0 auto;
 }
 
+.center {
+    margin: 0 auto;
+    width: 1040px;
+}
+
 /* Main Header Start */
 
 .main-header {
@@ -49,8 +54,6 @@ body {
 }
 
 .main-nav__items {
-    /*padding: 0;
-        margin: 0; */
     list-style: none;
 }
 
@@ -114,7 +117,9 @@ body {
 #product-overview h1 {
     color: white;
     font-family: 'Anton', sans-serif;
-    margin: 0;
+    font-size: 75px;
+    text-align: center;
+    margin: 175px 0 0 0;
 
 }
 
@@ -122,64 +127,56 @@ body {
 
 
 /* Plands Section Start */
-#plans {
-    
-}
-
 h1.section-title {
     color: #2ddf5c;
     text-align: center;
     font-weight: bold;
+    font-size: 60px;
+    margin: 0;
 }
 
 p.section-tag-line {
     text-align: center;
     font-weight: bold;
+    color: #0e4f1f;
+    font-size: 20px;
+    margin: 0 0 20px 0;
 }
 
 .plan {
     display: inline-block;
-    width: 31%;
+    width: 325px;
     background: #d5ffdc;
     color: #0e4f1f;
     text-align: center;
     /* vertical-align: middle; */
-    padding: 16px;
+    padding: 0 0 18px 0;
     margin: 8px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
 }
-
-/*
-article.plan:hover,
-article.plan:active {
-    background: white;
-    color: #19b84c;
-    box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.5);
+section#plans {
+    padding-top: 20px;
+    padding-bottom: 40px;
 }
-*/
-
 article.plan-highlighted {
     background:#19b84c;
     color: white;
 }
 
 h1.plan__recommended {
-    color: #19b84c;
-    background: white;
-    box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.5);
-    border-radius: 5px;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    color: white;
+    background: #0e4f1f;
+    padding-top: 20px;
+    padding-bottom: 20px;
     margin: 0;
 }
-/*
-h1.plan__title-recommended {
-    color: red;
-}
-*/
+
 h1.plan__title {
     color: #19b84c;
     padding-top: 15px;
     padding-bottom: 15px;
+    font-size: 24px;
     margin: 0;
 }
 
@@ -211,20 +208,97 @@ ul.plan__features > li {
     margin: 8px 0;
 }
 
-.plan .plan__button {
-    padding: 18px 0px;
+.plan__button {
+    padding: 14px 0px;
     width: 100%;
     color: white;
     background: #0e4f1f;
     font-weight: bold;
     font-size: 22px;
-    border-style: none;
+    border: #0e4f1f solid 5px;
     border-radius: 8px;
+    cursor: pointer;
+    width: 90%;
+}
+
+.plan__button:hover {
+    color: #0e4f1f;
+    background: white;
+    border: #0e4f1f solid 5px;
+}
+
+.plan__button:active {
+    color: #0e4f1f;
+    background: rgb(250, 253, 65);
+    border: #0e4f1f solid 5px;
+}
+
+.plan__button:focus {
+    outline: none;
 }
 
 
+/* Plans Section End */
 
 
-/* Plands Section Start */
+/* Benefits Section Start */
+
+.benefits {
+    width: 100%;
+    background: #ff1b68;
+    color: white;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.benefits__title {
+    margin: 0 auto;
+    max-width: 1040px;
+    text-align: center;
+    background: white;
+    color: #ff1b68;
+    font-weight: bold;
+    font-size: 60px;
+}
+
+
+.benefits__item {
+    display: inline-block;
+    list-style: none;
+    width: 325px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.benefits__circle {
+    height: 150px;
+    width: 150px;
+    margin: 40px auto;
+    background: gray;
+    background: url('../img/hosting.jpeg');
+    border: white solid 3px;
+    border-radius: 100%;
+}
+/* Benefits Section End */
+
+/* Footer Section Start */
+.main-footer {
+    background: #413e3e;
+    color: white;
+    padding: 20px;
+}
+
+.footer-item {
+    display: inline-block;
+    text-align: right;
+}
+
+.footer-link {
+    text-decoration: none;
+    color: white;
+}
+
+/* Footer Section Start */
 
 
