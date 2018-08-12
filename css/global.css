@@ -1,0 +1,173 @@
+* {
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+ }
+
+.container {
+    width: 980px;
+    margin: 0 auto;
+}
+
+.center {
+    margin: 0 auto;
+    width: 1040px;
+}
+
+/* Buttons General Start */
+
+.button {
+    padding: 14px 0px;
+    width: 100%;
+    color: white;
+    background: #0e4f1f;
+    font-weight: bold;
+    font-size: 22px;
+    border: #0e4f1f solid 5px;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 90%;
+}
+
+.button:hover {
+    color: #0e4f1f;
+    background: white;
+    border: #0e4f1f solid 5px;
+}
+
+.button:active {
+    color: #0e4f1f;
+    background: rgb(250, 253, 65);
+    border: #0e4f1f solid 5px;
+}
+
+.button:focus {
+    outline: none;
+}
+
+/* Buttons General End */
+
+
+
+/* Main Header Start */
+
+.main-header {
+    width: 100%;
+    background: #2ddf5c;
+    padding: 8px 16px;
+}
+
+.main-logo {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+.main-logo a {
+    text-decoration: none;
+    color: #0e4f1f;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+/* Main Header End */
+
+/* Main Navigation Start */
+
+.main-nav {
+    display: inline-block;
+    text-align: right;
+    vertical-align: middle;
+    width: calc(100% - 74px);
+}
+
+.main-nav__items {
+    list-style: none;
+}
+
+.main-nav__item {
+    display: inline-block;
+    margin: 0 16px;
+}
+
+.main-nav__item a {
+    text-decoration: none;
+    color: #0e4f1f;
+    font-weight: bold;
+    padding: 3px;
+}
+
+.main-nav__item a:hover {
+    color: #3a834d;
+    border-bottom: #3a834d solid 3px;
+
+}
+
+.main-nav__item a:active {
+    color: white;
+    border-bottom: white solid 3px;
+
+}
+
+.call-to-action a{
+    color: white;
+    background: #ff1b68;
+    padding: 8px 16px;
+    border: white 3px solid;
+    border-radius: 8px
+}
+
+.call-to-action a:hover {
+    color: #ff1b68;;
+    background: white;
+    padding: 8px 16px;
+    border: #ff1b68 3px solid;
+    border-radius: 8px
+}
+
+
+
+/* Main Navigation End */
+
+/* Footer Section Start */
+.main-footer {
+    background: #413e3e;
+    color: white;
+    padding: 20px;
+}
+
+.footer-items {
+    text-align: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.footer-item {
+    display: inline-block;
+    margin: 0 16px;
+}
+
+.footer-item__link {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+a.footer-item__link:hover {
+    color: #afafaf;
+}
+
+a.footer-item__link:active {
+    color: #ff1b68;
+}
+
+/* Footer Section End */
+
+
