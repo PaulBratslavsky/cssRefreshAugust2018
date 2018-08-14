@@ -3,11 +3,20 @@ main {
     padding: 32px 0;
 }
 
+.background {
+    background: url('../img/hosting.jpeg');
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: -1;
+}
+
 .package {
     width: 80%;
     border: solid #0e4f1f 4px;
     border-left: none;
     margin: 16px 0;
+    position: relative;
 }
 
 .package:hover,
@@ -41,6 +50,18 @@ main {
 
 #plus {
     background: rgb(213, 255, 220, 0.95);
+}
+
+#plus .package-badge {
+    position: absolute;
+    z-index: 0;
+    top: 0px;
+    right: 0px;
+    font-size: 18px;
+    padding: 10px 20px;
+    margin: 20px;
+    background: #EB3C6A;
+    color: white;
 }
 
 #free {
