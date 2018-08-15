@@ -5,6 +5,9 @@ main {
 
 .background {
     background: url('../img/hosting.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     height: 100%;
     width: 100%;
     position: fixed;
@@ -50,11 +53,11 @@ main {
 
 #plus {
     background: rgb(213, 255, 220, 0.95);
+    margin-top: 67px;
 }
 
 #plus .package-badge {
     position: absolute;
-    z-index: 0;
     top: 0px;
     right: 0px;
     font-size: 18px;
