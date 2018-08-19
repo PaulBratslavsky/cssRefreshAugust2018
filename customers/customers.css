@@ -21,6 +21,7 @@
 
   .testimonial__image {
       width: 100%;
+      max-width: 500px;
       padding: 20px;
       height: auto;
       background: pink;

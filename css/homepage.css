@@ -8,7 +8,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    height: 528px;
+    height: 85vh;
     padding: 18px 16px;
     margin-top: 67px;
     position: relative;
@@ -21,7 +21,7 @@
     margin: 0;
     position: absolute;
     left: 5%;
-    bottom: 10%;    
+    bottom: 10%;   
 }
 
 /* Product Overview End */
@@ -146,10 +146,10 @@ ul.plan__features > li {
     height: 150px;
     width: 150px;
     margin: 40px auto;
-    background: gray;
     background: url('../img/hosting.jpeg');
     border: white solid 3px;
     border-radius: 100%;
+    padding: 24px;
 }
 /* Benefits Section End */
 
