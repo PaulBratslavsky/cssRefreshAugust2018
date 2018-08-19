@@ -73,12 +73,27 @@ body {
     vertical-align: middle;
 }
 
+.logo-image {
+    width: 35px;
+    height: auto;
+    position: relative;
+    left: -5px;
+    background: #ff1b68;
+    padding: 2px;
+    border-radius: 100%;
+    border: 2px white solid;
+    vertical-align: middle;
+
+}
+
 
 .main-logo a {
     text-decoration: none;
     color: #0e4f1f;
     font-weight: bold;
     font-size: 22px;
+    vertical-align: middle;
+
 }
 
 /* Main Header End */
@@ -89,7 +104,7 @@ body {
     display: inline-block;
     text-align: right;
     vertical-align: middle;
-    width: calc(100% - 74px);
+    width: calc(100% - 110px);
 }
 
 .main-nav__items {
