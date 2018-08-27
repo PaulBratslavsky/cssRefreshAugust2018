@@ -17,8 +17,8 @@ body {
     top: 0;
     left: 0;
     z-index: 100;
-    height: 100%; 
-    width: 100%;
+    height: 100vh; 
+    width: 100vw;
     background: rgb(0, 0, 0, 0.5);
 }
 
@@ -31,7 +31,7 @@ body {
 /* Buttons General Start */
 
 .button {
-    padding: 14px 0px;
+    padding: 1rem 0;
     width: 100%;
     color: white;
     background: #0e4f1f;
@@ -68,7 +68,7 @@ body {
 .main-header {
     width: 100%;
     background: #2ddf5c;
-    padding: 8px 16px;
+    padding: 0.5rem 1rem;
     position: fixed;
     top: 0;
     left: 0;
@@ -98,7 +98,7 @@ body {
     text-decoration: none;
     color: #0e4f1f;
     font-weight: bold;
-    font-size: 22px;
+    font-size: 1.375rem;
     vertical-align: middle;
 
 }
@@ -120,14 +120,14 @@ body {
 
 .main-nav__item {
     display: inline-block;
-    margin: 0 16px;
+    margin: 0 1rem;
 }
 
 .main-nav__item a {
     text-decoration: none;
     color: #0e4f1f;
     font-weight: bold;
-    padding: 3px;
+    padding: 0.1875rem;
 }
 
 .main-nav__item a:hover {
@@ -145,7 +145,7 @@ body {
 .call-to-action a{
     color: white;
     background: #ff1b68;
-    padding: 8px 16px;
+    padding: 0.5rem 1rem;
     border: white 3px solid;
     border-radius: 8px;
 }
@@ -153,9 +153,9 @@ body {
 .call-to-action a:hover {
     color: #ff1b68;;
     background: white;
-    padding: 8px 16px;
+    padding: 0.5rem 1rem;
     border: #ff1b68 3px solid;
-    border-radius: 8px
+    border-radius: 0.5rem;
 }
 
 
@@ -166,7 +166,7 @@ body {
 .main-footer {
     background: #413e3e;
     color: white;
-    padding: 20px;
+    padding: 1.25rem;
 }
 
 .footer-items {
@@ -177,7 +177,7 @@ body {
 }
 .footer-item {
     display: inline-block;
-    margin: 0 16px;
+    margin: 0 1rem;
 }
 
 .footer-item__link {
