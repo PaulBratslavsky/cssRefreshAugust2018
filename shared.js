@@ -1,11 +1,15 @@
-const backdrop = document.querySelector('.backdrop');
-const modal = document.querySelector('.modal');
-
-
 const selectPlanButton = document.querySelectorAll('.plan button');
+
+const modal = document.querySelector('.modal');
 const closeModalButton = document.querySelector('.modal__action--negative');
+
 const closeBackdrop = document.querySelector('.backdrop');
+const backdrop = document.querySelector('.backdrop');
+
+
 const toggleButton = document.querySelector('.toggle-button');
+const mobileMenu = document.querySelector('.mobile-nav');
+
 
 selectPlanButton.forEach(button => {
     button.addEventListener( 'click', function() {
@@ -17,18 +21,28 @@ selectPlanButton.forEach(button => {
     console.log(button);
 });
 
-closeModalButton.addEventListener('click', function() {
-    console.log('close modal button clicked');
-    backdrop.style.display = 'none';
-    modal.style.display = 'none'; 
-});
+closeModalButton.addEventListener('click', closeModal);
+closeBackdrop.addEventListener('click', closeModal);
 
-closeBackdrop.addEventListener('click', function() {
-    console.log('backdrop was clicked');
+function closeModal() {
+    console.log('close modal clicked');
     backdrop.style.display = 'none';
     modal.style.display = 'none';
+}
+
+backdrop.addEventListener('click', function() {
+    mobileMenu.style.display = 'none';
+    closeModal();
 });
 
 toggleButton.addEventListener('click', function() {
     console.log('toggle button clicked');
-})
+    if ( mobileMenu.style.display === 'block') {
+        mobileMenu.style.display = 'none';
+        backdrop.style.display = 'none';
+    } else {
+        mobileMenu.style.display = 'block';
+        backdrop.style.display = 'block';
+    }
+
+});

@@ -1,0 +1,174 @@
+
+/* Main Header Start */
+
+
+
+.main-logo {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+/* Main Header End */
+
+
+
+
+
+/* Mobile Menu */
+.mobile-nav {
+    display: none;
+    position: fixed;
+    z-index: 101;
+    top: 4.1875;
+    left: 0;
+    background: white;
+    width: 80%;
+    height: 100vh;
+  }
+  
+  .mobile-nav__items {
+    width: 90%;
+    height: 100%;
+    list-style: none;
+    margin: 10% auto;
+    padding: 0;
+    text-align: center;
+  }
+  
+  .mobile-nav__item {
+    margin: 1rem 0;
+  }
+  
+  .mobile-nav__item a {
+    font-size: 1.5rem;
+  }
+
+
+
+/* Modal */
+.backdrop {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    height: 100vh; 
+    width: 100vw;
+    background: rgb(0, 0, 0, 0.5);
+}
+
+.modal {
+    position: fixed;
+    display: none;
+    z-index: 200;
+    top: 20%;
+    left: 30%;
+    width: 40%;
+    background: white;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+  }
+  
+  .modal__title {
+    text-align: center;
+    margin: 0 0 1rem 0;
+  }
+  
+  .modal__actions {
+    text-align: center;
+  }
+  
+  .modal__action {
+    border: 1px solid #0e4f1f;
+    background: #0e4f1f;
+    text-decoration: none;
+    color: white;
+    font: inherit;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+  }
+  
+  .modal__action:hover,
+  .modal__action:active {
+    background: #2ddf5c;
+    border-color: #2ddf5c;
+  }
+  
+  .modal__action--negative {
+    background: red;
+    border-color: red;
+  }
+  
+  .modal__action--negative:hover,
+  .modal__action--negative:active {
+    background: #ff5454;
+    border-color: #ff5454;
+  }
+
+/* Desktop 
+
+Main Navigation Start 
+
+.main-nav {
+    display: inline-block;
+    text-align: right;
+    vertical-align: middle;
+    width: calc(100% - 200px);
+}
+
+.main-nav__items {
+    list-style: none;
+}
+
+.main-nav__item {
+    display: inline-block;
+    margin: 0 1rem;
+}
+
+.main-nav__item a,
+.mobile-nav__item a {
+    text-decoration: none;
+    color: #0e4f1f;
+    font-weight: bold;
+    padding: 0.1875rem;
+}
+
+.main-nav__item a:hover,
+.mobile-nav__item a:hover {
+    color: #3a834d;
+    border-bottom: #3a834d solid 3px;
+
+}
+
+.main-nav__item a:active,
+.mobile-nav__item a:active {
+    color: white;
+    border-bottom: white solid 3px;
+
+}
+
+.call-to-action a,
+.mobile-nav__item--cta {
+    color: white;
+    background: #ff1b68;
+    padding: 0.5rem 1rem;
+    border: white 3px solid;
+    border-radius: 8px;
+}
+
+.call-to-action a:hover,
+.mobile-nav__item--cta:hover {
+    color: #ff1b68;;
+    background: white;
+    padding: 0.5rem 1rem;
+    border: #ff1b68 3px solid;
+    border-radius: 0.5rem;
+}
+
+
+
+ Main Navigation End 
+
+*/
