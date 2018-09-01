@@ -301,12 +301,12 @@ a.footer-item__link:active {
 
 
 @media only screen and (min-width : 768px) {
-    
-}
-
-@media only screen and (min-width : 1024px) {
     .footer-item {
         display: inline;
     }
+}
+
+@media only screen and (min-width : 1024px) {
+    
 }
     
