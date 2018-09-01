@@ -2,7 +2,7 @@
 
 #product-overview {
     background: #ff1b68;
-    height: 100vh;
+    height: 40rem;
     width: 100vw;
     background: url("../img/product-page.jpg");
     background-origin: border-box;
@@ -15,9 +15,9 @@
 #product-overview h1 {
     color: white;
     font-family: 'Anton', sans-serif;
-    font-size: 4rem;
+    font-size: 3.5rem;
     position: relative;
-    top: 25vh;
+    top: 10rem;
     text-align: center;
     padding: 4rem;
 }
@@ -44,13 +44,14 @@ p.section-tag-line {
 .plan {
     display: block;
     width: 100%;
+    max-width: 450px;
     background: #d5ffdc;
     color: #0e4f1f;
     text-align: center;
     border-bottom-left-radius: 8px;
     border-bottom-right-radius: 8px;
     padding: 2rem 1.2rem;
-    margin: 0.8rem 0;
+    margin: 0.8rem auto;
 }
 section#plans {
     padding-top: 1.2rem;
@@ -93,7 +94,7 @@ h1.plan__title-recommended {
 
 h2.plan__price-recommended {
     color: white;
-    font-size: 3.2rem;
+    font-size: 2.8rem;
     padding: 0;
     margin: 0;
 }
@@ -139,6 +140,7 @@ ul.plan__features > li {
 
 ul.benefits__items {
     padding-left: 0;
+    text-align: center;
 }
 
 .benefits__circle {
@@ -148,7 +150,68 @@ ul.benefits__items {
     background: url('../img/hosting.jpeg');
     border: white solid 3px;
     border-radius: 100%;
-    padding: 1.7rem;
+    padding: 2.7rem;
 }
 /* Benefits Section End */
+
+@media only screen and (min-width : 320px) {
+    #product-overview h1 {
+        top: 10rem;
+        font-size: 3rem;
+    }
+}
+
+@media only screen and (min-width : 400px) {
+    #product-overview h1 {
+        top: 14rem;
+    }
+}
+
+
+@media only screen and (min-width : 768px) {
+    .main-nav {
+        display: inline-block;
+    }
+
+    .toggle-button {
+        display: none;
+    }
+
+    #product-overview h1 {
+        top: 15rem;
+        font-size: 4rem;
+    }
+
+    
+}
+    
+
+@media only screen and (min-width : 1024px) {
+    #product-overview h1 {
+        top: 15rem;
+        font-size: 5rem;
+    }
+
+    .plan {
+        display: inline-block;
+        margin: 1rem;
+        width: 29%;
+        vertical-align: middle;
+    }
+
+    .center_plans {
+        width: 100%;
+        text-align: center;
+    }
+
+
+    .benefits__item {
+        display: inline-block;
+        font-size: 1.2rem;
+        width: 29%;
+    }
+
+}
+    
+
 

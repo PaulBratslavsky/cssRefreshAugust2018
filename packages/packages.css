@@ -16,10 +16,9 @@ main {
 
 .package {
     width: 80%;
+    max-width: 1400px;
     border: solid #0e4f1f 4px;
-    border-left: none;
-    margin: 1rem 0;
-    position: relative;
+    margin: 1rem auto;
 }
 
 .package:hover,
@@ -70,8 +69,6 @@ main {
 #free {
     background: rgb(234, 252, 237, 0.95);
     border: solid #0e4f1f 4px;
-    border-right: none;
-    float: right;
     text-align: right;
 }
 
@@ -79,9 +76,9 @@ main {
     border-color: #ff5454;
 }
 
-.clearfix {
+/* .clearfix {
     clear: both;
-}
+} */
 
 #premium {
     background: rgb(14, 79, 31, 0.95);
@@ -94,3 +91,41 @@ main {
 #premium .package-sub-title {
     color: #bbb;
 }
+
+@media only screen and (min-width : 320px) {
+   
+
+}
+
+@media only screen and (min-width : 400px) {
+    
+}
+
+
+@media only screen and (min-width : 768px) {
+    .main-nav {
+        display: inline-block;
+    }
+
+    .toggle-button {
+        display: none;
+    }
+
+    .package {
+        display: inline-block;
+        width: 80%;
+        border-left: none;
+    }
+
+    #free {
+        float: right;
+        border-right: none;
+    }
+}
+
+@media only screen and (min-width : 1024px) {
+    
+}
+    
+
+
