@@ -114,17 +114,24 @@ main {
     .package {
         display: inline-block;
         width: 80%;
-        border-left: none;
     }
 
     #free {
         float: right;
-        border-right: none;
     }
 }
 
 @media only screen and (min-width : 1024px) {
+    main {
+        max-width: 1500px;
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (min-width : 1500px) {
     
+
+
 }
     
 

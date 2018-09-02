@@ -54,7 +54,7 @@ p.section-tag-line {
     margin: 0.8rem auto;
 }
 section#plans {
-    padding-top: 1.2rem;
+    /* padding-top: 1.2rem; */
     padding-bottom: 2.4;
 }
 article.plan-highlighted {
