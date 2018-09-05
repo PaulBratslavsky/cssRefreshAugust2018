@@ -23,9 +23,8 @@ body {
 }
 
 .main-view {
-    min-height: calc(100vh - 5.6876rem - 4.9375rem);
-    margin-top: 5.6876rem;
-    padding: 1rem 0;
+    min-height: calc(100vh - 5.1875rem - 4.9375rem);
+    margin-top: 5.1875rem;
 }
 
 
@@ -75,7 +74,7 @@ body {
     display: none;
     position: fixed;
     z-index: 101;
-    top: 5.5rem;
+    top: 5rem;
     left: 0;
     background: rgba(28, 54, 28); /* rgb(235, 60, 106, 0.75); */
     width: 100vw;
@@ -200,7 +199,7 @@ body {
 .main-header {
     width: 100vw;
     background: #2ddf5c;
-    padding: 1.25rem 1.8rem;
+    padding: 1rem 1.8rem;
     position: fixed;
     top: 0;
     left: 0;
@@ -217,22 +216,20 @@ body {
     color: #0e4f1f;
     font-weight: bold;
     font-size: 2rem;
-    vertical-align: middle;
     display: inline-block;
-
 }
 
 .logo-image {
     display: inline-block;
-    width: 35px;
+    width: 3rem;
     height: auto;
     position: relative;
     left: -5px;
-    top: 6px;
     background: #ff1b68;
     padding: 2px;
     border-radius: 100%;
-    border: 2px white solid;    
+    border: 2px white solid;   
+    vertical-align: middle; 
 }
 
 .toggle-button {
@@ -307,8 +304,15 @@ a.footer-item__link:active {
     
 }
 
-
 @media only screen and (min-width : 768px) {
+    .main-nav {
+        display: inline-block;
+    }
+
+    .toggle-button {
+        display: none;
+    }
+
     .footer-item {
         display: inline;
     }

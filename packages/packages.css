@@ -103,14 +103,6 @@ main {
 
 
 @media only screen and (min-width : 768px) {
-    .main-nav {
-        display: inline-block;
-    }
-
-    .toggle-button {
-        display: none;
-    }
-
     .package {
         display: inline-block;
         width: 80%;
