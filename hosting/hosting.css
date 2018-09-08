@@ -1,31 +1,146 @@
 /* HOSTING CSS */
+main {
+    padding-top: 1.5rem;
+    padding-bottom: 0.5rem;
+    background: #fff453;
+}
 
+.center-text {
+    width: 100%;
+    text-align: center;
+}
+
+li.call-to-action {
+    display: none;
+}
 
 .signup-title {
     font-size: 1.8rem;
-    color: #ff5454;
+    color: #EB3C6A;
 }
+
+.signup-form {
+   margin: 1.5rem auto;
+}
+
+.signup-form label,
+.signup-form input,
+.signup-form select  {
+    display: block;
+    margin-top: 1rem;
+    width: 96%;
+    margin-left: auto;
+    margin-right: auto;
+    font: inherit;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.signup-form label {
+    color: #0fa30f;
+    font-size: 1.4rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.signup-form input {
+    /* border: solid #e1e2e4 3px; */
+    border: #ffffff solid 3px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    color: #7a7a7a;
+    padding: 0.5rem;
+}
+
+.signup-form input[id*="terms"],
+.signup-form input[id*="terms"] + label {
+    display: inline-block;
+    width: auto;
+    margin-top: 1.5rem;
+}
+
+.signup-form button[type="submit"] {
+    margin-top: 1.5rem;
+}
+
+.signup-form button[type="submit"],
+.signup-form button[type="submit"] {
+    border: solid 5px #ffffff;
+    background: #EB3C6A;
+}
+
+.signup-form button[type="submit"]:hover,
+.signup-form button[type="submit"]:hover {
+    border: solid 5px #EB3C6A;
+    background: #ffffff;
+}
+
+.signup-form label > a {
+    color: #244D25;
+}
+
+.signup-form label > a:hover {
+    color: #3b853c;
+}
+
+.signup-form input:hover,
+.signup-form input:focus {
+    outline-style: none;
+    background:#6DDB6D;
+    color: #ffffff;
+    border: #6DDB6D 3px solid;
+}
+
+.signup-form input[type="checkbox"] {
+    border: 2px solid #cccccc;
+    border-radius: 5px;
+    background: white;
+    width: 1.5rem;
+    height: 1.5rem;
+    position: relative;
+    top: 8px;
+    left: -4px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.signup-form input[type="checkbox"]:checked {
+    background: #EB3C6A;
+}
+
+
   
     @media only screen and (min-width : 320px) {
         main {
-            background: pink;
+            
         }
     }
 
     @media only screen and (min-width : 400px) {
         main {
-            background: red;
+            
         }
+
     }
 
     @media only screen and (min-width : 768px) {
-        main {
-            background: yellow;
+
+        .signup-form {
+            border-radius: 15px;
+            background: #ffffff;
+            width: 30rem;
+            padding: 1rem;
         }
+
+        .signup-form input {
+            border: solid #e1e2e4 3px;
+        }
+
     }
         
     @media only screen and (min-width : 1024px) {
         main {
-            background: lightskyblue;
+            
         }
     }
