@@ -65,14 +65,20 @@ li.call-to-action {
 
 .signup-form button[type="submit"],
 .signup-form button[type="submit"] {
-    border: solid 5px #ffffff;
+    border: none;
     background: #EB3C6A;
 }
 
 .signup-form button[type="submit"]:hover,
 .signup-form button[type="submit"]:hover {
-    border: solid 5px #EB3C6A;
-    background: #ffffff;
+    border: none;
+    background: #6DDB6D
+}
+
+button[disabled] {
+    background: #cccccc !important;
+    color: #7a7a7a;
+    cursor: not-allowed;
 }
 
 .signup-form label > a {
@@ -106,7 +112,15 @@ li.call-to-action {
 }
 
 .signup-form input[type="checkbox"]:checked {
-    background: #EB3C6A;
+    background: #6DDB6D;
+}
+
+.signup-form input.invalid,
+.signup-form select.invalid,
+.signup-form :invalid {
+    border: 3px solid #eb698b;
+    background: #eb698b;
+    color: #ffffff;
 }
 
 
