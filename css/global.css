@@ -278,9 +278,13 @@ a {
     font-size: 2rem;
     margin: 0;
     padding: 0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 .footer-item {
-    display: block;
     margin: 1rem 1rem;
 }
 
@@ -318,8 +322,9 @@ a.footer-item__link:active {
         display: none;
     }
 
-    .footer-item {
-        display: inline;
+    .footer-items {
+        flex-direction: row;
+        justify-content: center;
     }
 }
 

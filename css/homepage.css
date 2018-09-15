@@ -1,4 +1,6 @@
 /* Modal */
+
+
 .modal {
     position: fixed;
     display: none;
@@ -52,6 +54,7 @@
 /* Product Overview Start */
 
 #product-overview {
+    display: flex;
     background: #ff1b68;
     height: 40rem;
     width: 100vw;
@@ -64,11 +67,13 @@
 }
 
 #product-overview h1 {
+    display: flex;
+    width: 100%;
     color: white;
     font-family: 'Anton', sans-serif;
     font-size: 3.5rem;
-    position: relative;
-    top: 10rem;
+    justify-content: center;
+    align-items: center;
     text-align: center;
     padding: 4rem;
 }
@@ -92,21 +97,28 @@ p.section-tag-line {
     margin: 0 0 1.25rem 0;
 }
 
-.plan {
-    display: block;
+.plans {
     width: 100%;
-    max-width: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+
+article.plan { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 320px;
+    margin: 1.2rem;
+    padding-bottom: 2.4rem;
     background: #d5ffdc;
     color: #0e4f1f;
-    text-align: center;
     border-bottom-left-radius: 8px;
     border-bottom-right-radius: 8px;
     padding: 2rem 1.2rem;
-    margin: 0.8rem auto;
-}
-section#plans {
-    /* padding-top: 1.2rem; */
-    padding-bottom: 2.4;
 }
 article.plan-highlighted {
     background:#19b84c;
@@ -181,10 +193,10 @@ ul.plan__features > li {
 }
 
 
-.benefits__item {
-    display: block;
+.benefits__items {
+    display: flex;
+    flex-direction: column;
     list-style: none;
-    text-align: center;
     font-size: 2.3rem;
     font-weight: bold;
 }
@@ -235,24 +247,35 @@ ul.benefits__items {
         font-size: 5rem;
     }
 
-    .plan {
-        display: inline-block;
-        margin: 1rem;
-        width: 29%;
-        vertical-align: middle;
-    }
-
-    .center_plans {
+    .plans {
         width: 100%;
-        text-align: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
     }
 
+    plan {
+        height: 28rem;
+    }
+
+    article.plan-highlighted {
+        height: 30rem;
+    }
+
+    .benefits__items {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.2rem;
+        
+    }
 
     .benefits__item {
-        display: inline-block;
-        font-size: 1.2rem;
-        width: 29%;
+        width: 320px;
     }
+    
 
 }
     
