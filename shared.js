@@ -15,11 +15,14 @@ selectPlanButton.forEach(button => {
     button.addEventListener( 'click', function() {
         console.log('button was clicked');
         backdrop.style.display = 'block';
-        modal.style.display = 'block';
-        
-    })
+        //backdrop.classList.add("open");
+
+        modal.classList.add("open");
+        // modal.style.display = 'block';
+    });
     console.log(button);
 });
+
 
 closeModalButton.addEventListener('click', closeModal);
 closeBackdrop.addEventListener('click', closeModal);
@@ -27,7 +30,11 @@ closeBackdrop.addEventListener('click', closeModal);
 function closeModal() {
     console.log('close modal clicked');
     backdrop.style.display = 'none';
-    modal.style.display = 'none';
+    // modal.style.display = 'none';
+
+    modal.classList.remove("open");
+    // backdrop.classList.remove("open");
+
 }
 
 backdrop.addEventListener('click', function() {

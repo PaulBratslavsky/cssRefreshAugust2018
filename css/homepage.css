@@ -2,8 +2,13 @@
 
 
 .modal {
+    display: block;
+    opacity: 0;
+    transform: translateY(-20rem);
+    transition: opacity 700ms ease-in, transform 500ms; 
+
+
     position: fixed;
-    display: none;
     z-index: 200;
     top: 20%;
     left: 30%;
@@ -49,6 +54,14 @@
     background: #ff5454;
     border-color: #ff5454;
   }
+
+  .open {
+    display: block !important;
+    opacity: 1 !important;
+    transform: translateY(12rem) !important;
+    transition: opacity 500ms, transform 500ms !important; 
+
+}
 
 
 /* Product Overview Start */

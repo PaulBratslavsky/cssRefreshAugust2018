@@ -117,6 +117,8 @@ h2.package__badge {
         color: white;
         border: white solid 3px;
 
+
+        transform-origin: center;
         transform: rotateZ(45deg) translateX(6.5rem) translateY(-2.4rem); 
 
 

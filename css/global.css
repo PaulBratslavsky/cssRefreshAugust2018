@@ -39,10 +39,6 @@ a {
     padding-top: 4rem;
 }
 
-.modal {
-    display: none;
-}
-
 .backdrop {
     display: none;
     position: fixed;
