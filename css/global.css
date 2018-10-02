@@ -16,6 +16,10 @@ body {
 
     display: grid;
     grid-template-rows: auto fit-content(8rem);
+
+    grid-template-areas: 
+        "main-view"
+        "main-footer"
 }
 
 h1, h2, h3, h4, h5, h6, p, a, li {
@@ -37,6 +41,8 @@ a {
 .main-view {
     height: 100%;
     padding-top: 4rem;
+
+    grid-area: main-view;
 }
 
 .backdrop {
@@ -49,6 +55,7 @@ a {
     width: 100vw;
     background: rgb(0, 0, 0, 0.5);
 }
+
 
 /* Buttons General Start */
 
@@ -271,6 +278,7 @@ a {
 
 /* Footer Section Start */
 .main-footer {
+    grid-area: main-footer;
     background: #413e3e;
     color: white;
     padding: 1.25rem;

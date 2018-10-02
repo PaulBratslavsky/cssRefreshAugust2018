@@ -3,9 +3,8 @@ const selectPlanButton = document.querySelectorAll('.plan button');
 const modal = document.querySelector('.modal');
 const closeModalButton = document.querySelector('.modal__action--negative');
 
-const closeBackdrop = document.querySelector('.backdrop');
 const backdrop = document.querySelector('.backdrop');
-
+const closeBackdrop = document.querySelector('.backdrop');
 
 const toggleButton = document.querySelector('.toggle-button');
 const mobileMenu = document.querySelector('.mobile-nav');
@@ -15,10 +14,7 @@ selectPlanButton.forEach(button => {
     button.addEventListener( 'click', function() {
         console.log('button was clicked');
         backdrop.style.display = 'block';
-        //backdrop.classList.add("open");
-
         modal.classList.add("open");
-        // modal.style.display = 'block';
     });
     console.log(button);
 });
@@ -30,11 +26,7 @@ closeBackdrop.addEventListener('click', closeModal);
 function closeModal() {
     console.log('close modal clicked');
     backdrop.style.display = 'none';
-    // modal.style.display = 'none';
-
     modal.classList.remove("open");
-    // backdrop.classList.remove("open");
-
 }
 
 backdrop.addEventListener('click', function() {
