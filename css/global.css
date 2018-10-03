@@ -22,6 +22,14 @@ body {
         "main-footer"
 }
 
+.container {
+    max-width: 960px;
+    min-width: 320px;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0.5rem;
+}
+
 h1, h2, h3, h4, h5, h6, p, a, li {
     text-align: center;
     padding: 0;

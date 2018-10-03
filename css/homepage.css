@@ -4,7 +4,7 @@
 .modal {
     display: block;
     opacity: 0;
-    transform: translateY(-20rem);
+    transform: translateY(-30rem);
     transition: opacity 700ms ease-in, transform 500ms; 
 
 
@@ -94,6 +94,7 @@
 /* Product Overview End */
 
 /* Plans Section Start */
+
 h1.section-title {
     color: #2ddf5c;
     text-align: center;
@@ -107,7 +108,8 @@ p.section-tag-line {
     font-weight: bold;
     color: #0e4f1f;
     font-size: 1.25rem;
-    margin: 0 0 1.25rem 0;
+    margin-top: 5;
+    margin-bottom: 1.25rem;
 }
 
 .plans {

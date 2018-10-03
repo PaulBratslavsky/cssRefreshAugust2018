@@ -9,7 +9,7 @@ const closeBackdrop = document.querySelector('.backdrop');
 const toggleButton = document.querySelector('.toggle-button');
 const mobileMenu = document.querySelector('.mobile-nav');
 
-
+/*
 selectPlanButton.forEach(button => {
     button.addEventListener( 'click', function() {
         console.log('button was clicked');
@@ -18,7 +18,7 @@ selectPlanButton.forEach(button => {
     });
     console.log(button);
 });
-
+*/
 
 closeModalButton.addEventListener('click', closeModal);
 closeBackdrop.addEventListener('click', closeModal);
@@ -45,3 +45,5 @@ toggleButton.addEventListener('click', function() {
     }
 
 });
+
+alert("This is a test");
