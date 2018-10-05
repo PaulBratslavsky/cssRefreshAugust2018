@@ -220,13 +220,16 @@ a {
       border-radius: 0.5rem;
   }
 
-  /* Mobile Menu */
+/* Mobile Menu */
 .mobile-nav {
-    display: none;
+    display: block;
     position: fixed;
     z-index: 101;
     top: 5rem;
     left: 0;
+    transform: translateX(48rem);
+    transition: transform 750ms;
+
   }
   
   .mobile-nav__items {
@@ -335,6 +338,10 @@ a.footer-item__link:active {
     }
 
     .toggle-button {
+        display: none;
+    }
+
+    .mobile-nav {
         display: none;
     }
 
