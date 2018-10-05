@@ -43,6 +43,7 @@ h2.package__badge {
 .package:hover,
 .package:active {
     box-shadow: 2px 2px 2px rgb(0, 0, 0, 0.5);
+    animation: grow 0.25s ease-in forwards;
 }
 
 .package-title {
@@ -129,6 +130,15 @@ h2.package__badge {
     
 
 
+}
+
+@keyframes grow {
+    from{
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.025);
+    }
 }
     
 

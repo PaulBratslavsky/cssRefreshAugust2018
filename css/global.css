@@ -220,6 +220,10 @@ a {
       border-radius: 0.5rem;
   }
 
+  .call-to-action {
+      animation: wiggle 200ms 1.5s 8 alternate;
+  }
+
 /* Mobile Menu */
 .mobile-nav {
     display: block;
@@ -355,3 +359,24 @@ a.footer-item__link:active {
     
 }
     
+@keyframes wiggle {
+    from {
+        transform: rotateZ(0);
+    }
+    to {
+        transform: rotateZ(10deg);
+    }
+
+/*
+    0% {
+        transform: rotateZ(0);
+    }
+    50% {
+        transform: rotateZ(-10deg)
+    }
+
+    100% {
+        transform: rotateZ(10deg);
+    }
+*/
+}
